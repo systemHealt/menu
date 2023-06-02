@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="Menu.css">
+</head>
+
+<body>
+    <nav class="nav container">
+        <div class="nav__data">
+            <a href="#" class="nav__logo">
+                <i class="ri-code-s-slash-line"></i> System Health
+            </a>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line nav__toggle-menu"></i>
+                <i class="ri-close-line nav__toggle-close"></i>
+            </div>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li>
+                    <a href="#" class="nav__link">Página Inicial</a>
+                </li>
+                <li class="dropdown__item">
+                    <div class="nav__link dropdown__button">
+                        Agendamentos<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <div class="dropdown__container">
+                        <div class="dropdown__content">
+                            <div class="dropdown__group">
+                                <div class="dropdown__icon">
+                                    <i class="ri-flashlight-line"></i>
+                                </div>
+                                <span class="dropdown__title">Agendamento de exames</span>
+                                <ul class="dropdown__list">
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-heart-3-line"></i>
+                                        </div>
+                                        <span class="dropdown__title">Agendamento de Consultas</span>
+                                    </div>
+                            </div>
+                        </div>
+                </li>
+                <!--=============== DROPDOWN 2 ===============-->
+                <li class="dropdown__item">
+                    <div class="nav__link dropdown__button">
+                        Paciente <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <div class="dropdown__container">
+                        <div class="dropdown__content">
+                            <div class="dropdown__group">
+                                <div class="dropdown__icon">
+                                    <i class="ri-code-line"></i>
+                                </div>
+                                <span class="dropdown__title"></span>
+
+                                <ul class="dropdown__list">
+                                    <li>
+                                        <a href="#" class="dropdown__link">Perfil do Paciente</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Histórico do Paciete</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!--=============== DROPDOWN 3 ===============-->
+                <li class="dropdown__item">
+                    <div class="nav__link dropdown__button">
+                        Empresa<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <div class="dropdown__container">
+                        <div class="dropdown__content">
+                            <div class="dropdown__group">
+                                <div class="dropdown__icon">
+                                    <i class="ri-community-line"></i>
+                                </div>
+                                <span class="dropdown__title">Sobre Nós</span>
+
+                                <ul class="dropdown__list">
+                                    <li>
+                                        <a href="#" class="dropdown__link">Sobre Nós</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Suporte</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Contatos</a>
+                                    </li>
+                                </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <script src="Menu.js"></script>
+</body>
+
+</html>
